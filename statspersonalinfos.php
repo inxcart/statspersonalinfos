@@ -36,7 +36,7 @@ class StatsPersonalInfos extends ModuleGraph
 	{
 		$this->name = 'statspersonalinfos';
 		$this->tab = 'analytics_stats';
-		$this->version = 1.1;
+		$this->version = '1.2';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 
@@ -44,7 +44,7 @@ class StatsPersonalInfos extends ModuleGraph
 
 		$this->displayName = $this->l('Registered customer information');
 		$this->description = $this->l('Adds information about your registered customers (such as gender and age) to the Stats dashboard.');
-		$this->ps_versions_compliancy = array('min' => '1.5.6.1', 'max' => _PS_VERSION_);
+		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
 	}
 
 	public function install()
