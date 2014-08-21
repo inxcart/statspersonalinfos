@@ -36,7 +36,7 @@ class StatsPersonalInfos extends ModuleGraph
 	{
 		$this->name = 'statspersonalinfos';
 		$this->tab = 'analytics_stats';
-		$this->version = '1.2';
+		$this->version = '1.3.1';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 
