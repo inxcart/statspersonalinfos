@@ -1,5 +1,8 @@
 # Registered customer information
 
+Note: this module has been deprecated with [thirty bees](https://github.com/thirtybees/thirtybees)
+1.0.4 and integrated into the [statsmodule module](https://github.com/thirtybees/statsmodule).
+
 ## About
 
 Adds information about your registered customers (such as gender and age) to the Stats dashboard.
